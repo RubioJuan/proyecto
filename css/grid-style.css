@@ -1,0 +1,234 @@
+*{
+    font-family:'poppins',sans-serif;
+    background-color: #1e1d2b;
+}
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+a:hover{
+    border: solid #ff702a;
+    background-color: #ff702a;
+}
+.Subtitulo{
+    text-align: left;
+    font-size: 40px;
+    padding-top: 2rem;
+}
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15%;
+    padding-top: 9px;
+}
+.info-items{
+    display: grid;
+    grid-template-rows: 1fr 90px 1fr;
+}
+.subtexto{
+    display: flex;
+    align-items: center;
+    border: 1px solid none;
+    background-color: #ff702a;   
+    border-radius: 5px;
+    width:150px ;
+    height: 25px;
+}
+.imgprincipal{
+    display: flex;
+    align-items: center;
+}
+.otro{
+    text-align: left;
+    padding-left: 5px;
+}
+.info2{
+    display: grid;
+    grid-template-rows: 70px 85px 1fr;
+}
+.texto2{
+    text-align: left;
+    padding-left: 5px;
+}
+.texto3{
+    text-align: left;
+    padding-left: 5px;
+}
+.subitem{
+    display: flex;
+    align-items: center;
+    border: 1px solid none;
+    background-color: #ff702a;   
+    border-radius: 5px;
+    width:100px ;
+    height: 25px;
+    justify-content: center;
+}
+.menu1{
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.menu01{
+    text-align: center;
+    align-items: center;
+}
+.info3{
+    display: grid;
+    grid-template-rows: 60px 85px 1fr;
+}
+.container{
+    min-height:300px;
+    display: flex;
+}
+.item{
+    background-color: #ffefe8; 
+    width: 400px;
+    height: 350px;
+    margin: 5rem;
+}
+.img3{
+    background-color: #ffefe8;
+}
+.comida{
+    background-color: #ffefe8;
+    padding-left: 80px;
+}
+.comida1{
+    background-color: #ffefe8;
+    padding-left: 100px;
+}
+.comida2{
+    background-color: #ffefe8;
+    padding-left: 110px;
+}
+.emoji{
+    background-color: #ffefe8;
+    padding-left: 250px;
+}
+.pag4{
+    text-align: center;
+    align-items: center;
+}
+.sub4{
+    text-align: center;
+    align-items: center;
+}
+.img4{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.text1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.extra{
+    display: flex;
+    text-align: left;
+    padding-left: 120px;
+    margin: 1px;
+    justify-content: space-between;
+}
+.extra1{
+    display: flex;
+    text-align: left;
+    padding-left: 25px;
+    margin: 1px;
+    justify-content: space-between;
+}
+.extra2{
+    display: flex;
+    text-align: right;
+    padding-right: 90px;
+    margin: 1px;
+    justify-content: space-between;
+}
+.information{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 1rem;
+    justify-content: space-between;
+}
+.pag5{
+    background-color: #ffefe8;
+    border: solid rgb(224, 203, 175);
+    min-width: 450px;
+    height: 350px;
+    margin: 45px;
+    border-radius: 10px;     
+    display: grid;
+    grid-template-columns: 1;
+    padding: 80px;
+    padding-top: 15px;
+    justify-content: center;
+    align-items: baseline; 
+    justify-items: center;
+}
+.information1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #ffefe8;
+    font-size: 3rem;
+}
+.extrasub{
+    display: flex;
+    align-items: center;
+    border: 1px solid none;
+    background-color: #ff702a; 
+    border-radius: 6px;
+    width:100px ;
+    height: 22px;
+}
+.finalizacion{
+    display: flex;
+   justify-content: space-around;
+   text-align: center;
+    align-content: center;
+    
+}
+.finish{
+    display: grid;
+    padding-left:50px;
+    grid-template-columns:  1fr 1fr 1fr;
+    padding: 9%;
+    padding-top: 9px;
+}
+.finish1{
+    display: grid;
+}
+.finish2{
+     display: grid;
+}
+.finish3{
+    display: grid;
+}
+.naranjas{
+    display: flex;
+    border: 1px solid none;
+    background-color: #ff702a;   
+    border-radius: 5px;
+    width: 10px;
+    height: 12px;
+    margin: 5px;
+}
+@media(min-width: 300px){
+    .wide{
+        grid-column: span 2;
+    }
+    .tall{
+        grid-row: span 2;
+    }
+ }
